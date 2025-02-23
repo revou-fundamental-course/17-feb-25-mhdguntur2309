@@ -3,23 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link style="css\styles.css">
+    <title>Website Portofolio</title>
+    <link rel="stylesheet" href="css\styles.css">
 </head>
 <body>
     <!-- Header and navigation-->
-    <header>
+    <header class="main-header">
+        <!-- logo company-->
+        <div class="logo-pt"></div>
+        <nav>
+            <a href="#" class="no-border-radius-right">Home</a>
+            <a href="#paket-kami" class="no-border-radius">Paket</a>
+            <a href="#hubungi-kami" class="no-border-radius-left">Kontak Kami</a>
 
+        </nav>
     </header>
+    <hr>
     <!-- Main Content-->
     <main>
-
+        <header>
+            <h1>Your Trusted Travel Agent</h1>
+            <h4>Your happines is our happines</h4>
+    
+        </header>
+        <section class="main-content">
+            <aside class="main-container-kiri">
+                <p>banner autoslide</p>
+            </aside>
+            <aside class="main-container-kanan">
+               
+                 <form action="" name="formku" onsubmit="return Validasi()">
+                <table>
+                    <h2>Hubungi Kami</h2>
+                    <p>Pihak Kami akan menghubungi anda dalam 1x24 jam</p>
+                    <tr>Nama Anda <br>
+                        <input type="text" id="nama_anda" placeholder="Masukkan nama Anda">
+                    </tr><br>
+                    <tr>Email Anda <br>
+                        <input type="email" id="email" placeholder="masukkan email anda">
+                    </tr><br>
+                    <tr>Referensi Anda <br>
+                        <select name="interest" id="interest">
+                            <option value="">Pilih interest anda</option>
+                            <option value="Gunung">Gunung</option>
+                            <option value="Pantai">Pantai</option>
+                            <option value="Hutan">Hutan</option>
+                        </select>
+                    </tr>
+                    <tr><br>
+                        <input type="submit" id="kirim" value="kirim" name="kirim">
+                        <!-- <button type="button" class="btn btn-primary col-2" id="kirim">kirim</button> -->
+                    </tr>
+                </table>
+                
+                </form>
+                
+                <!--
+                <form action="">
+                    <h2>Hubungi Kami</h2>
+                    <p>Pihak kami akan menghubungi anda dalam 1x 24 jam</p>
+                    <label>Nama Anda : </label><br>
+                    <input type="text" id="nama_anda" placeholder="Masukkan Nama Anda"><br>
+                    <label>Email Anda : </label><br>
+                    <input type="text" id="email" placeholder="Masukkan Email Anda"><br>
+                    <label>Nama Anda : </label><br>
+                    <select name="interest" id="interest">
+                        <option>Pilih Referensi Anda</option>
+                        <option value="Gunung">Gunung</option>
+                        <option value="Pantai">Pantai</option>
+                        <option value="Hutan">Hutan</option>
+                    </select><br>
+                    <input type="submit" value="Send" id="kirim">
+                </form>
+                -->
+            </aside>
+        </section>
+        <br>
+        <section id="paket-kami">
+            <header>
+            <h2>Paket Kami</h2>
+            </header>
+            <article class="paket-kami-content">
+                <p>ini adalah halaman paket Kami</p>
+            </article>
+        </section>
+        <section id="hubungi-kami">
+            <header>
+            <h2>Hubungi Kami</h2>
+            </header>
+            <article class="hubungi-kami-content">
+                <p>ini adalah halaman Hubungi Kami</p>
+            </article>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
-
+        <p>Copyright &copy; Mohammad Guntur 2025</p>
     </footer>
-    
+    <script src="js\script.js"></script>
 </body>
 </html>
