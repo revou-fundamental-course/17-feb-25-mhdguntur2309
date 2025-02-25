@@ -1,5 +1,6 @@
 body {
     background-color:whitesmoke;
+    margin: 0;
 }
 h4{
     color: darkgray;
@@ -80,6 +81,7 @@ main>header{
     text-align: center;
     border-radius: 10px;
     background-color: beige;
+    padding: 30px;
 }
 
 .paket-kami-content{
@@ -124,8 +126,9 @@ h5 {
     height: 100px;
     align-content: center;
     text-align: center;
-    border-radius: 10px;
-    background-color:darkseagreen;
+    border-radius: 8px;
+    background-color: beige;
+    padding: 10px;
 }
 
 .hubungi-kami-content{
@@ -155,10 +158,28 @@ input,select {
     border-style: ridge;
 }
 
-footer{
-    text-align: center;
+button {
+    height: 50px;
+    width: 120px;
+    background-color: darkslategrey;
+    color: antiquewhite;
 }
 
-@media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
+footer{
+    display: flex
+;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family: monospace;
+    font-size: small;
+    font-style: oblique;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+
   }
