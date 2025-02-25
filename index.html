@@ -24,15 +24,29 @@
         <header>
             <h1>Your Trusted Travel Agent</h1>
             <h4>Your happines is our happines</h4>
-    
         </header>
         <section class="main-content">
             <aside class="main-container-kiri">
-                <p>banner autoslide</p>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <img src="assets\bandung.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                      <img src="assets\jakarta.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                      <img src="assets/palembang.jpg" style="width:100%">
+                    </div>
+                </div> 
+                <blockquote><i>"Pengalaman baru bersama travel agent Cindo"</i></blockquote>
+                <span style="display: flex; align-items: center; margin-left: 50px;">
+                    <img src="assets\girl.png" height="60px" width="60px" style="padding: 10px;">
+                    <h4>Han soo Hee <br> <i>Aktris, 25</i></h4>
+                </span>
+                <hr width="50px" align="center" style="border: 1px solid;">
             </aside>
-            <aside class="main-container-kanan">
-               
-                 <form action="" name="formku" onsubmit="return Validasi()">
+            <aside class="main-container-kanan">    
+                 <form action="index.html" name="formku" onsubmit="return Validasi()">
                 <table>
                     <h2>Hubungi Kami</h2>
                     <p>Pihak Kami akan menghubungi anda dalam 1x24 jam</p>
@@ -55,38 +69,58 @@
                         <!-- <button type="button" class="btn btn-primary col-2" id="kirim">kirim</button> -->
                     </tr>
                 </table>
-                
                 </form>
-                
-                <!--
-                <form action="">
-                    <h2>Hubungi Kami</h2>
-                    <p>Pihak kami akan menghubungi anda dalam 1x 24 jam</p>
-                    <label>Nama Anda : </label><br>
-                    <input type="text" id="nama_anda" placeholder="Masukkan Nama Anda"><br>
-                    <label>Email Anda : </label><br>
-                    <input type="text" id="email" placeholder="Masukkan Email Anda"><br>
-                    <label>Nama Anda : </label><br>
-                    <select name="interest" id="interest">
-                        <option>Pilih Referensi Anda</option>
-                        <option value="Gunung">Gunung</option>
-                        <option value="Pantai">Pantai</option>
-                        <option value="Hutan">Hutan</option>
-                    </select><br>
-                    <input type="submit" value="Send" id="kirim">
-                </form>
-                -->
             </aside>
         </section>
+        
         <br>
         <section id="paket-kami">
             <header>
             <h2>Paket Kami</h2>
             </header>
             <article class="paket-kami-content">
-                <p>ini adalah halaman paket Kami</p>
+                <aside class="paket-kami-side">
+                    <img src="assets\centang.png" width="40" height="40"> <h5>Bandung</h5> 
+                    <p>Nikmati pengalaman mengeksplorasi kota Bandung bersama kami</p>
+                </aside>
+                <aside class="paket-kami-side">
+                    <img src="assets\centang.png" width="40" height="40"> <h5>Jakarta</h5>
+                    <p>Eksplorasi berbagai spot menarik di Jakarta</p>
+                </aside>
+                <aside class="paket-kami-side">
+                    <img src="assets\centang.png" width="40" height="40"> <h5>Palembang</h5>
+                    <p>Berburu pempek, pindang hingga mie celor di kota Palembang</p>
+                </aside>
             </article>
-        </section>
+            <hr width="50px" style="border: 1px solid;">
+            <article class="paket-kami-content">
+                <aside class="paket-kami-side">
+                    <img src="assets\bintang.png" width="40" height="40"> <h5>Malaysia</h5>
+                    <p>Jelajahi negara melayu dari pelosok desa sampai tengah kota</p>
+                </aside>
+                <aside class="paket-kami-side">
+                    <img src="assets\bintang.png" width="40" height="40"> <h5>Thailand</h5>
+                    <p>Mari jalan jalan ke negara Jirayut</p>
+                </aside>
+                <aside class="paket-kami-side">
+                    <img src="assets\bintang.png" width="40" height="40"> <h5>Singapore</h5>
+                    <p>Nikmati pelayanan premium dalam berwisata di Singapore</p>
+                </aside>
+            </article>
+            </section>
+            <br>
+                <!-- <div>
+                    <img src="assets\centang.png" height="20px" width="20px" alt=""> <h8>Bandung</h8>
+                    <p>Nikmati pengalaman mengeksplorasi kota Bandung bersama kami</p>
+                </div>
+                <div>
+                    <img src="assets\centang.png" height="20px" width="20px" alt=""> <h8>Jakarta</h8>
+                    <p>Nikmati pengalaman mengeksplorasi kota Jakarta bersama kami</p>
+                </div>
+                <div>Palembang</div>
+                <div>Malaysia</div>
+                <div>Thailand</div>
+                <div>Singapore</div> -->
         <section id="hubungi-kami">
             <header>
             <h2>Hubungi Kami</h2>
