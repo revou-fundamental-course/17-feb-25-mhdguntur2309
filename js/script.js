@@ -1,6 +1,6 @@
 // ini javacript
 let nama, email, interest;        
-        function Validasi () {
+function Validasi () {
         nama = document.forms["formku"]["nama_anda"].value;
         email = document.forms["formku"]["email"].value;
         interest = document.forms["formku"]["interest"].value;
@@ -10,7 +10,7 @@ let nama, email, interest;
           return false;
         }
         else {
-          alert("Terima Kasih");
+          alert("Terima Kasih "+ nama);
           return false;
         }
 };

@@ -3,7 +3,8 @@ body {
     margin: 0;
 }
 h4{
-    color: darkgray;
+    color: beige;
+    margin-top:0px;
 }
 .main-header{
     display: flex;
@@ -55,14 +56,14 @@ main>header{
 
 .main-content{
     display: flex;
-    gap: 20px  ;
+    gap: 10px  ;
 }
 
 .main-container-kiri{
     background-color: darkgrey;
-    height: 320px;
+    height: 450px;
     align-content: center;
-    flex: 2;
+    flex: 1;
     border-radius: 10px;
 }
 
@@ -72,7 +73,7 @@ main>header{
     align-content: center;
     flex: 1;
     border-radius: 5px;
-    padding: 30px;
+    padding: 10px;
 }
 
 #paket-kami>header{
@@ -166,8 +167,7 @@ button {
 }
 
 footer{
-    display: flex
-;
+    display: flex;
     justify-content: space-around;
     margin-top: 100px;
     font-family: monospace;
@@ -178,8 +178,28 @@ footer{
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 80%;
   }
 
-
-  }
+  @media only screen and (max-width: 480px){
+    .main-header {
+        flex-direction: column;
+    }
+    
+    .main-content {
+        flex-direction: column;
+    }
+    .paket-kami-content {
+        display: flex;
+        flex-direction: column;
+        }
+    h4 {
+        color : bisque;
+    }
+    nav {
+        flex-direction: column;
+    }
+    }
+  
